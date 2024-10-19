@@ -1,0 +1,12 @@
+{
+  "name": "com.nwbuilder.demo",
+  "version": "0.1.1",
+  "main": "./src/index.html",
+  "window": {
+    "width": 600,
+    "height": 600,
+    "min_width": 200,
+    "min_height": 500,
+    "icon": "./public/icon.png"
+  }
+}

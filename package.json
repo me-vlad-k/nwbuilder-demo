@@ -1,0 +1,28 @@
+{
+  "name": "nwbuilder-demo",
+  "version": "0.0.1",
+  "main": "index.html",
+  "node-remote": [
+    "<all_urls>"
+  ],
+  "private": true,
+  "type": "module",
+  "volta": {
+    "npm": "10.8.2",
+    "node": "22.7.0"
+  },
+  "scripts": {
+    "start": "nw .",
+    "build:cli:nw": "nwbuild --cacheDir=./node_modules/nw --outDir=./build/nw --managedManifest=./package.nw.json ./package.json ./src/*",
+    "build:clean": "rimraf ./build",
+    "build:macos:arm64": "npm run build:clean && node ./tasks/build.macos.arm64.js",
+    "build:macos:x64": "npm run build:clean && node ./tasks/build.macos.x64.js",
+    "build:win:x64": "npm run build:clean && node ./tasks/build.win.x64.js"
+  },
+  "devDependencies": {
+    "base-volta-off-of-nwjs": "^1.0.5",
+    "nw": "^0.92.0",
+    "nw-builder": "^4.9.0"
+  },
+  "chromium-args": "--enable-spell-checking"
+}
