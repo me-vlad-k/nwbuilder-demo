@@ -16,8 +16,8 @@ nwbuild({
   managedManifest: "./package.build.nw.json",
   // zip: "zip", // If true, "zip", "tar" or "tgz" the outDir directory is compressed.
   app: {
-    name: "NWBuilderDEMO",
-    icon: "./public/icon.icns",
+    name: "NWBuilder DEMO",
+    icon: "./public/nwb-demo.icns",
     CFBundleDisplayName: "NWBuilder Demo",
   },
 });
