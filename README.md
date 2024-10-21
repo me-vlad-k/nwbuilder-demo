@@ -4,13 +4,13 @@
 
 I've decided to create a demo project for [nw-builder](https://github.com/nwutils/nw-builder) to test and demonstrate its functionality. The documentation is quite vague (at the moment of writing), and I'm personally struggling to get started, so having a fully functional demo would really help connect the dots.
 
-# 🌗 Demo uses nw-builder v.4.9.0
+## 🌗 Demo uses nw-builder v.4.9.0
 
 I've tested the latest versions (from 4.10.0 to 4.11.4) of nw-builder and found that 4.9.0 is the most stable, at least for my needs. This is the only version that allowed me to successfully build for the ARM64 architecture.
 
-# 🔮 Mystery Issues Tracker
+## 🔮 Mystery Issues Tracker
 
-## NW.js with nw-builder. App icon missing/blank in MacOS ARM64 build.
+### NW.js with nw-builder. App icon missing/blank in MacOS ARM64 build.
 
 Issue: [#1279](https://github.com/nwutils/nw-builder/issues/1279) from the official nw-builder repository.
 
